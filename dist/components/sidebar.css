@@ -43,6 +43,23 @@
 }
 
 /*--------------
+   Color
+---------------*/
+
+
+/* SentinelPurple */
+.ui.inverted.sentinelPurple.sidebar {
+  background-color: #501E70 !important;
+  color: #FFFFFF !important;
+}
+
+/* Sentinel */
+.ui.inverted.sentinel.sidebar {
+  background-color: #AB3A8E !important;
+  color: #FFFFFF !important;
+}
+
+/*--------------
    Direction
 ---------------*/
 
@@ -135,7 +152,7 @@ body.pushable {
   z-index: 2;
 }
 body.pushable > .pusher {
-  background: #FFFFFF;
+  background: #F7F7F7;
 }
 
 /* Pusher should inherit background from context */

@@ -6,6 +6,7 @@
    Icon Variables
 --------------------*/
 
+@fontPath: '../../themes/sentinel/assets/fonts';
 @fontName: 'icons';
 @fallbackSRC: url("@{fontPath}/@{fontName}.eot");
 @src:

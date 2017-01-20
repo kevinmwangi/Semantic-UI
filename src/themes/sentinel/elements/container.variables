@@ -23,7 +23,7 @@
 @computerWidth: @computerBreakpoint - (@computerMinimumGutter * 2) - @scrollbarWidth;
 @computerGutter: auto;
 
-@largeMonitorMinimumGutter: (@emSize  * 2);
+@largeMonitorMinimumGutter: (@emSize  * 1);
 @largeMonitorWidth: @largeMonitorBreakpoint - (@largeMonitorMinimumGutter * 2) - @scrollbarWidth;
 @largeMonitorGutter: auto;
 

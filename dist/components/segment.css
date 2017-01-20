@@ -614,6 +614,24 @@
   color: #FFFFFF !important;
 }
 
+/* SentinelPurple */
+.ui.sentinelPurple.segment:not(.inverted) {
+  border-top: 2px solid #501E70;
+}
+.ui.inverted.sentinelPurple.segment {
+  background-color: #501E70 !important;
+  color: #FFFFFF !important;
+}
+
+/* Sentinel */
+.ui.sentinel.segment:not(.inverted) {
+  border-top: 2px solid #AB3A8E;
+}
+.ui.inverted.sentinel.segment {
+  background-color: #AB3A8E !important;
+  color: #FFFFFF !important;
+}
+
 /*-------------------
        Aligned
 --------------------*/
