@@ -4705,21 +4705,43 @@ input::selection {
 
 @media only screen and (min-width: 1200px) {
   .ui.container {
-    width: 1155px;
+    width: 1127px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
   .ui.grid.container {
-    width: calc( 1155px  +  2rem ) !important;
+    width: calc( 1127px  +  2rem ) !important;
   }
 
   .ui.relaxed.grid.container {
-    width: calc( 1155px  +  3rem ) !important;
+    width: calc( 1127px  +  3rem ) !important;
   }
 
   .ui.very.relaxed.grid.container {
-    width: calc( 1155px  +  5rem ) !important;
+    width: calc( 1127px  +  5rem ) !important;
+  }
+}
+
+/* Widescreen Monitor */
+
+@media only screen and (min-width: 1920px) {
+  .ui.container {
+    width: 1679px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .ui.grid.container {
+    width: calc( 1679px  +  2rem ) !important;
+  }
+
+  .ui.relaxed.grid.container {
+    width: calc( 1679px  +  3rem ) !important;
+  }
+
+  .ui.very.relaxed.grid.container {
+    width: calc( 1679px  +  5rem ) !important;
   }
 }
 
@@ -33771,14 +33793,14 @@ body.pushable > .pusher {
 
 .ui.visible.left.sidebar ~ .fixed,
 .ui.visible.left.sidebar ~ .pusher {
-  -webkit-transform: translate3d(260px, 0, 0);
-  transform: translate3d(260px, 0, 0);
+  -webkit-transform: translate3d(200px, 0, 0);
+  transform: translate3d(200px, 0, 0);
 }
 
 .ui.visible.right.sidebar ~ .fixed,
 .ui.visible.right.sidebar ~ .pusher {
-  -webkit-transform: translate3d(-260px, 0, 0);
-  transform: translate3d(-260px, 0, 0);
+  -webkit-transform: translate3d(-200px, 0, 0);
+  transform: translate3d(-200px, 0, 0);
 }
 
 .ui.visible.top.sidebar ~ .fixed,
@@ -33844,7 +33866,7 @@ html.ios body {
 
 .ui.left.sidebar,
 .ui.right.sidebar {
-  width: 260px;
+  width: 200px;
 }
 
 .ui.wide.left.sidebar,
