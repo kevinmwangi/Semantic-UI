@@ -152,3 +152,6 @@
 
 /* Sizes */
 @medium: 1em;
+
+/* Unstackable */
+@unstackableMobileImageWidth: 125px;
