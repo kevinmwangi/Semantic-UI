@@ -139,13 +139,16 @@ module.exports = {
       processImport       : false,
       restructuring       : false,
       keepSpecialComments : 1,
-      roundingPrecision   : -1,
+      roundingPrecision   : -1
     },
 
     /* Minified JS Settings */
     uglify: {
       mangle           : true,
-      preserveComments : 'some'
+        output: {
+            comments: 'some'
+        }
+      // preserveComments : 'some' // Depricated
     },
 
     /* Minified Concat CSS Settings */
@@ -153,13 +156,16 @@ module.exports = {
       processImport       : false,
       restructuring       : false,
       keepSpecialComments : false,
-      roundingPrecision   : -1,
+      roundingPrecision   : -1
     },
 
     /* Minified Concat JS */
     concatUglify: {
       mangle           : true,
-      preserveComments : false
+        output: {
+            comments: 'some'
+        }
+      // preserveComments : false // Depricated
     }
 
   }
