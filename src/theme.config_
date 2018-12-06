@@ -18,60 +18,60 @@
 */
 
 /* Global */
-@site       : 'semantic';
-@reset      : 'semantic';
+@site        : 'default';
+@reset       : 'default';
 
 /* Elements */
-@button     : 'semantic';
-@container  : 'semantic';
-@divider    : 'semantic';
-@flag       : 'semantic';
-@header     : 'semantic';
-@icon       : 'semantic';
-@image      : 'semantic';
-@input      : 'semantic';
-@label      : 'semantic';
-@list       : 'semantic';
-@loader     : 'semantic';
-@rail       : 'semantic';
-@reveal     : 'semantic';
-@segment    : 'semantic';
-@step       : 'semantic';
+@button      : 'default';
+@container   : 'default';
+@divider     : 'default';
+@flag        : 'default';
+@header      : 'default';
+@icon        : 'default';
+@image       : 'default';
+@input       : 'default';
+@label       : 'default';
+@list        : 'default';
+@loader      : 'default';
+@placeholder : 'default';
+@rail        : 'default';
+@reveal      : 'default';
+@segment     : 'default';
+@step        : 'default';
 
 /* Collections */
-@breadcrumb : 'semantic';
-@form       : 'semantic';
-@grid       : 'semantic';
-@menu       : 'semantic';
-@message    : 'semantic';
-@table      : 'semantic';
+@breadcrumb  : 'default';
+@form        : 'default';
+@grid        : 'default';
+@menu        : 'default';
+@message     : 'default';
+@table       : 'default';
 
 /* Modules */
-@accordion  : 'semantic';
-@calendar   : 'semantic';
-@checkbox   : 'semantic';
-@dimmer     : 'semantic';
-@dropdown   : 'semantic';
-@embed      : 'semantic';
-@modal      : 'semantic';
-@nag        : 'semantic';
-@popup      : 'semantic';
-@progress   : 'semantic';
-@rating     : 'semantic';
-@search     : 'semantic';
-@shape      : 'semantic';
-@sidebar    : 'semantic';
-@sticky     : 'semantic';
-@tab        : 'semantic';
-@transition : 'semantic';
+@accordion   : 'default';
+@checkbox    : 'default';
+@dimmer      : 'default';
+@dropdown    : 'default';
+@embed       : 'default';
+@modal       : 'default';
+@nag         : 'default';
+@popup       : 'default';
+@progress    : 'default';
+@rating      : 'default';
+@search      : 'default';
+@shape       : 'default';
+@sidebar     : 'default';
+@sticky      : 'default';
+@tab         : 'default';
+@transition  : 'default';
 
 /* Views */
-@ad         : 'semantic';
-@card       : 'semantic';
-@comment    : 'semantic';
-@feed       : 'semantic';
-@item       : 'semantic';
-@statistic  : 'semantic';
+@ad          : 'default';
+@card        : 'default';
+@comment     : 'default';
+@feed        : 'default';
+@item        : 'default';
+@statistic   : 'default';
 
 /*******************************
             Folders
@@ -81,13 +81,13 @@
 @themesFolder : 'themes';
 
 /* Path to site override folder */
-@siteFolder   : 'site/';
+@siteFolder  : 'site';
 
 
 /*******************************
          Import Theme
 *******************************/
 
-@import "theme.less";
+@import (multiple) "theme.less";
 
 /* End Config */
